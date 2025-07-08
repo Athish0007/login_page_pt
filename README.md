@@ -24,15 +24,31 @@ ng test
 ```
 
 
+written maulaly:
 ## to install versions I installed: 
 
 
 codes to be exectued in terminal :
 
 1.     cd my-login-app
-2.  to install angular i use in this proj :
-3.  to install node.js i use : npm install -g npm@11.4.2  
+2.  To install Angular i use in this project:  npm install -g @angular/cli
+3.  to install Node.js i use:  npm install -g npm@11.4.2
+4.  Install zone.js: npm install zone.js ( must be installed after node and angular installation because it might not install while installing node.js)
 
+5. Apro delete these files which are created by default while installing Angular which are marked in red in the screenshot, and replace them with the files uploaded in this GitHub repository:
+
+screenshot:   ![image](https://github.com/user-attachments/assets/eb32d58e-9ac4-45bd-a0fe-b937a66bbea7)
+   
+![Annotation 2025-07-08 220356](https://github.com/user-attachments/assets/607b866d-d118-4535-b8e2-b6adb3f18473)
+
+
+5.  open page in the browser :  ng serve --open
+
+suppose nee page ah open panna unaku white screen varuthu or glitch mathiri vandhaa you should : 1. open the 'inspect" in that open "console" 
+
+![image](https://github.com/user-attachments/assets/34355581-770b-42ff-a090-7937878c5db0)
+
+(the one my pointer is pointing) and copy paste the error appering there in  in chatgpt.
 
 
 
