@@ -35,19 +35,19 @@ codes to be exectued in terminal :
     ```
     
 2.  To install Angular i use in this project:
-3.  ```bash
-    npm install -g @angular/cli
-    ```
+   ```bash
+      npm install -g @angular/cli
+   ```
     
 4.  to install Node.js i use:
-5.   ```bash
-6.  npm install -g npm@11.4.2
-7.  ```
+   ```bash
+      npm install -g npm@11.4.2
+   ```
     
 8.  Install zone.js:
 9.  ```bash.
-    npm install zone.js
-   ```bash
+       npm install zone.js
+    ```bash
 
  ( must be installed after node and angular installation because it might not install while installing node.js)
 
@@ -61,7 +61,7 @@ screenshot:   ![image](https://github.com/user-attachments/assets/eb32d58e-9ac4-
 5.  open page in the browser :
 
 ```bash
- ng serve --open
+   ng serve --open
 ```
 
 suppose nee page ah open panna unaku white screen varuthu or glitch mathiri vandhaa you should : 1. open the 'inspect" in that open "console" 
