@@ -30,19 +30,39 @@ written maulaly:
 
 codes to be exectued in terminal :
 
-1.     cd my-login-app
-2.  To install Angular i use in this project:  npm install -g @angular/cli
-3.  to install Node.js i use:  npm install -g npm@11.4.2
-4.  Install zone.js: npm install zone.js ( must be installed after node and angular installation because it might not install while installing node.js)
+1.  ```bash
+       cd my-login-app
+    ```
+    
+2.  To install Angular i use in this project:
+3.  ```bash
+    npm install -g @angular/cli
+    ```
+    
+4.  to install Node.js i use:
+5.   ```bash
+6.  npm install -g npm@11.4.2
+7.  ```
+    
+8.  Install zone.js:
+9.  ```bash.
+    npm install zone.js
+   ```bash
 
-5. Apro delete these files which are created by default while installing Angular which are marked in red in the screenshot, and replace them with the files uploaded in this GitHub repository:
+ ( must be installed after node and angular installation because it might not install while installing node.js)
+
+12. Apro delete these files which are created by default while installing Angular which are marked in red in the screenshot, and replace them with the files uploaded in this GitHub repository:
 
 screenshot:   ![image](https://github.com/user-attachments/assets/eb32d58e-9ac4-45bd-a0fe-b937a66bbea7)
    
 ![Annotation 2025-07-08 220356](https://github.com/user-attachments/assets/607b866d-d118-4535-b8e2-b6adb3f18473)
 
 
-5.  open page in the browser :  ng serve --open
+5.  open page in the browser :
+
+```bash
+ ng serve --open
+```
 
 suppose nee page ah open panna unaku white screen varuthu or glitch mathiri vandhaa you should : 1. open the 'inspect" in that open "console" 
 
