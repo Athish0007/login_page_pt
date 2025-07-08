@@ -47,7 +47,7 @@ codes to be exectued in terminal :
 8.  Install zone.js:
 9.  ```bash.
        npm install zone.js
-    ```bash
+    ```
 
  ( must be installed after node and angular installation because it might not install while installing node.js)
 
