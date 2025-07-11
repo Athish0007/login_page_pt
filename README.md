@@ -28,7 +28,7 @@ written maulaly:
 ## to install versions I installed: 
 
 
-codes to be exectued in terminal :("my-login-app irukura yedathula unnoda folder name podu)
+codes to be exectued in terminal :("my-login-app" irukura yedathula unnoda folder name podu)
 
 1.  ```bash
        cd my-login-app
