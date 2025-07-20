@@ -1,0 +1,100 @@
+.login-form-container {
+  top: 1rem;
+  max-height: 650px;
+  max-width: 550px; /* adjust if needed */
+  width: 90%;
+  padding: 2rem; /* 👈 Adds uniform space on all four sides */
+  background: white;
+  border-radius: 25px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-block: 1rem;
+}
+
+
+.sign-in-title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 2.3rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.sign-in-description {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.input-group {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+.input-group input {
+  width: 100%; /* Adjust to be 100% and then padding */
+  padding: 0.8rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  font-size: 1rem;
+  box-sizing: border-box; /* Include padding in width */
+  padding-right: 2.5rem; /* Make space for icon */
+}
+.input-group .icon {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.5;
+}
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.checkbox-group input {
+  margin-right: 0.5rem;
+}
+.forgot-password-link {
+  text-align: right;
+  margin-bottom: 2rem;
+}
+.forgot-password-link a {
+  font-size: 0.9rem;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Sign In Button */
+.sign-in-button {
+  width: 100%;
+  padding: 0.8rem 0;
+  background: #111;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.sign-in-button:hover {
+  background: #333;
+}
+
+/* Mobile adjustments for sign-in */
+@media (max-width: 768px) {
+  .sign-in-title {
+    font-size: 2rem;
+  }
+  .sign-in-description {
+    font-size: 1rem;
+  }
+  .input-group input {
+    padding: 0.7rem 1rem;
+    font-size: 0.9rem;
+  }
+  .input-group .icon {
+    right: 0.75rem;
+  }
+  .sign-in-button {
+    padding: 0.7rem 0;
+    font-size: 0.9rem;
+  }
+}
